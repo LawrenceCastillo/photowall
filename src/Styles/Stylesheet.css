@@ -49,13 +49,14 @@ h1 {
   justify-content: center;
 }
 
-.remove-button {
+button {
   flex-basis: 48%;
   color: red;
   font-size: 15px;
   border: 2px solid #f2f2f2;
   line-height: 2;
   padding: 5px;
+  cursor: pointer;
 }
 
 .addIcon {
@@ -65,4 +66,42 @@ h1 {
   background: url(https://image.flaticon.com/icons/svg/60/60740.svg) center no-repeat;
   background-size: contain;
   border: none;
+}
+
+.form {
+  background: white;
+  margin: 0 auto;
+  max-width: 360px;
+  padding: 45px;
+  text-align: center;
+}
+
+.form input {
+  font-family: san-serif;
+  background: #f2f2f2;
+  width: 100%;
+  border: none;
+  padding: 15px;
+  box-sizing: border-box; /* include extra border/ padding adjustments */
+  font-size: 14px;
+  margin: 0 0 15px;
+}
+
+.form button {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background: #065784;
+  width: 100%;
+  border: none;
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+}
+
+.form button:hover {
+  background: #7b8589
+}
+
+button:hover {
+  border-color: blue;
 }
