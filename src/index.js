@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Main from './Components/Main'
-import './Styles/Stylesheet1.css'
+import './Styles/Stylesheet.css'
 
 ReactDOM.render(<Main/>, document.getElementById('root'));
