@@ -17,7 +17,7 @@ class AddPhoto extends Component {
     }
 
     if (imageLink && description){
-      this.props.addPost(post);
+      this.props.addedPost(post);
       this.props.history.push('/')
     }
   }
