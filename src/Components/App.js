@@ -6,7 +6,8 @@ import {withRouter} from 'react-router'
 
 function mapStateToProps(state) {
   return {
-    posts: state
+    posts: state.postReducer,
+    comments: state.commentReducer
   }
 }
 
