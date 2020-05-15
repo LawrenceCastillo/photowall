@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+# Credentials
+/Database
+config.js
+
 # testing
 /coverage
 
