@@ -2,6 +2,8 @@
 
 The Photowall app is a result of completing the online course: [The Complete React JS & Redux Course](https://www.udemy.com/course/the-complete-react-js-redux-course-build-modern-web-apps/). The course teaches React and Redux, with Firebase to persist data.
 
+#### App deployed to Netlify, view here: [react-photowall.netlify.app](https://react-photowall.netlify.app)
+
 If forking this repo, please see Firebase notes in src/Database_template for setting up and connecting Firebase database. For obvious reasons, I have not included my Firebase configuration settings.
 
 1. Fork the repository
