@@ -17,6 +17,7 @@ const postReducer = (state=posts, action) => {
   switch (action.type) {
     case 'REMOVED_POST': return [...state.slice(0, action.index), ...state.slice(action.index+1)]
     case 'ADDED_POST': return [...state, action.post]
+    case 'LOADED_POSTS': return action.posts
     default: return state
   }
 }

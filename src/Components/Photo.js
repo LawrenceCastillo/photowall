@@ -10,7 +10,7 @@ const Photo = (props) => {
       <figcaption> <p>{post.description}</p></figcaption>
       <div className='button-container'>
         <button onClick={() => {
-          props.removedPost(props.index)
+          props.startRemovingPost(props.index, post.id)
           props.history.push('/')
         }} >Remove</button>
         <Link className='button' to={`/single/${post.id}`}>
