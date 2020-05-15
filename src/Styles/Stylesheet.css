@@ -221,5 +221,15 @@ button:hover,.button:hover, button:focus, .button:focus {
   position: fixed;
   align-items: center;
   justify-content: center;
-  font-size: 28pt;
+  font-size: 18pt;
+}
+
+.error {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  font-size: 18pt;
 }
